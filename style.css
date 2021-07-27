@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.8rem;
+}
+
+nav {
+  background-color: rgb(56, 59, 59);
+  color: white;
+  padding: 1rem;
+}
+
+.clear {
+  clear: both;
+}
+
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  padding-left: 4rem;
+}
+
+.pics {
+  background-image: url("/picture/pasted-image-0-13.png ");
+  height: 48rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  padding-top: 15rem;
+}
+
+.btn {
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  background-color: rgb(18, 18, 19);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.text {
+  color: #000;
+}
+
+.form-heading {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  font-size: 2rem;
+}
+
+form label {
+  font-size: 2rem;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+}
+
+form {
+  text-align: center;
+}
+
+.form-btn {
+  padding: 1rem 4rem;
+  background-color: rgb(18, 18, 19);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
